@@ -1,0 +1,298 @@
+@font-face{
+	font-family: Aller_Rg;
+	src: url(../fonts/Aller_Rg.ttf);
+}
+@font-face{
+	font-family: Aller_Bd;
+	src: url(../fonts/Aller_Bd.ttf);
+}
+@font-face{
+	font-family: Aller_BdIt;
+	src: url(../fonts/Aller_BdIt.ttf);
+}
+@font-face{
+	font-family: Aller_Lt;
+	src: url(../fonts/Aller_Bd.ttf);
+}
+@font-face{
+	font-family: AllerDisplay;
+	src: url(../fonts/AllerDislpay.ttf);
+}
+@font-face{
+	font-family: GothamRoundedMedium;
+	src: url(../fonts/GothamRoundedMedium.otf);
+}
+
+ html, body{
+ 	font-color: #333;
+ }
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+
+/*Contact-Header*/
+/*
+#contact-header ul{
+	padding: 20px 0px 15px 15px;
+	float: right;
+}
+#contact-header ul li{
+	display: inline;
+	text-decoration: none;
+}
+#contact-header a{
+	text-decoration: none;
+	color: #000;
+	font-family: 'Aller_Rg', helvetica;
+	padding-left: 5px;
+}
+#contact-header a .fa{
+	font-size: 17px;
+}
+.separator{
+	padding-right: 15px;
+}*/
+
+/*UNVIVERSAL*/
+
+section{
+	padding: 50px 0 50px;
+}
+
+/*Navbar*/
+
+.navbar-brand {
+  height: 72px;
+  padding: 18px 15px;
+  font-size: 30px;
+  font-family: 'Aller_Bd', helvetica;
+  color: #fff;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: #113b41;
+    font-family: 'Aller_Rg', helvetica;
+    margin: 0 auto;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #00bba4;
+    background-color: transparent;
+}
+.navbar-default .navbar-brand {
+    color: #00bba4;
+    text-transform: uppercase;
+}
+.navbar-brand>img {
+    display: inline;
+    width: 45px;
+    height: 38px;
+    padding-right: 10px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #333;
+    font-size: 18px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
+    color: #00bba4;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a{
+    color: #333;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{	
+  background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a:focus{
+	color: #00bba4;
+}
+.navbar-nav>li{
+    padding: 25px 20px;
+}
+.navbar-nav>li>a{
+    padding: 0px;
+}
+.navbar-toggle {  
+   	margin-top: 20px;
+    margin-right: 25px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #00bba4;
+    background-color: transparent;
+}
+
+    
+	/*Banner*/
+
+#main-header{
+	margin-top: 50px;
+	height: calc(100vh - 50px);
+  overflow: hidden;
+}
+header:hover .main-banner {
+  -webkit-transition: all 8s;
+  -moz-transition: all 8s;
+  -o-transition: all 8s;
+  transition: all 8s;
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+.main-banner{
+	background: linear-gradient(rgba(27, 27, 27, 0.10), rgb(17, 59, 65)), url(../img/banner-sample3.jpg)no-repeat fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -1;
+	height: 100%;
+}	
+.banner-content{
+	color: #fff;
+	font-family: 'Aller_Rg', helvetica;
+	font-size: 18px;
+	background-color: #00f4f5:
+	border: 1px solid #00f4f5;
+	z-index: 10;
+	margin-top: 150px;
+}
+.banner-content h2{
+	font-size: 70px;
+	font-family: 'Aller_BdIt', helvetica;
+	color: #fff;
+}
+.highlight{
+	font-family: 'Aller_Rg', helvetica;
+}
+.main-icon{
+	margin-top: 100px;
+}
+.main-icon li{
+	display: inline;
+}
+.main-icon a{
+	text-decoration: none;
+	color: #00bba4;
+	padding: 5px;
+}
+.main-icon a:hover{
+	color: #fff;
+}
+.main-icon a:hover .fa-inverse{
+	color: #00bba4;
+}
+.main-icon .fa-inverse{
+	color: #fff;
+	font-size: 15px;
+}
+.learn{
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.learn a{
+	font-size: 30px;
+	text-decoration: none;
+	color: #fff;
+}
+
+/*ABOUT*/
+
+.uni-content h2{
+	font-family: 'Aller_Bd', helvetica;
+	font-size: 35px;
+}
+.uni-content p{
+	font-family: 'Aller_Rg', helvetica;
+	font-size: 18px;
+}
+.widgets{
+	margin-top: 60px;
+}
+.widgets .col-md-3{
+	padding-top: 30px;
+}
+.hover-1:hover, .hover-2:hover, .hover-3:hover, .hover-4:hover{
+	border-radius: 4px;
+	background-color: #113b41;
+	transition: all 0.8s;
+	color: #fff;
+}
+.hover-1, .hover-2, .hover-3, .hover-4{
+	transition: all 0.8s;
+}
+.image-1{
+	background-image: url(../img/quality.png);
+	width: 60px;
+	height: 60px;
+	transition: all 0.8s;
+}
+.hover-1:hover .image-1{
+	background-image: url(../img/quality-hover.png);
+	width: 60px;
+	height: 60px;
+}
+.image-2{
+	background-image: url(../img/save.png);
+	width: 60px;
+	height: 60px;
+	transition: all 0.8s;
+}
+.hover-2:hover .image-2{
+	background-image: url(../img/save-hover.png);
+	width: 60px;
+	height: 60px;
+}
+.image-3{
+	background-image: url(../img/recycle.png);
+	width: 60px;
+	height: 60px;
+	transition: all 0.8s;
+}
+.hover-3:hover .image-3{
+	background-image: url(../img/recycle-hover.png);
+	width: 60px;
+	height: 60px;
+}
+.image-4{
+	background-image: url(../img/repair.png);
+	width: 60px;
+	height: 60px;
+	transition: all 0.8s;
+}
+.hover-4:hover .image-4{
+	background-image: url(../img/repair-hover.png);
+	width: 60px;
+	height: 60px;
+}
+.widgets h3{
+	font-family: 'Aller_Bd', helvetica;
+	font-size: 20px;
+}
+.widgets .col-md-3 p{
+	font-family: 'Aller_Rg', helvetica;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.widgets .btn-default{
+	background-color: transparent;
+	border: 2px solid #113b41;
+	color: #113b41;
+	font-family: 'Aller_Rg', helvetica;
+	transition: all 0.8s;
+	margin-bottom: 35px;
+}
+.hover-1:hover .btn-default, .hover-2:hover .btn-default, .hover-3:hover .btn-default, .hover-4:hover .btn-default{
+	border: 2px solid #00bba4;
+	color: #00bba4;
+}
+.widgets .btn-default:hover{
+	color: #fff;
+}
+.widgets .btn-default:focus {
+    background-color: transparent;
+}
+
+
